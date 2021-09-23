@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href='style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta name='viewport' content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1>calculator</h1>
+  </header>
+  <main>
+    <div
+    id="container">
+<div id="window"><p id="windowText"></p></div>
+<button class="button" id="clearBTN" onclick="clearClicked()">clear</button>
+<button class="button" value="/" onclick="btnClicked(this.value)">/</button>
+<button class="button" value="x" onclick="btnClicked(this.value)">x</button>
+
+<button class="button" value="7" onclick="numBtnClicked(this.value)">7</button>
+<button class="button" value="8" onclick="numBtnClicked(this.value)">8</button>
+<button class="button" value="9" onclick="numBtnClicked(this.value)">9</button>
+<button class="button" value="-" onclick="btnClicked(this.value)">-</button>
+
+<button class="button" value="4" onclick="numBtnClicked(this.value)">4</button>
+<button class="button" value="5" onclick="numBtnClicked(this.value)">5</button>
+<button class="button" value="6" onclick="numBtnClicked(this.value)">6</button>
+<button class="button" value="+" onclick="btnClicked(this.value)">+</button>
+
+<button class="button" value="1" onclick="numBtnClicked(this.value)">1</button>
+<button class="button" value="2" onclick="numBtnClicked(this.value)">2</button>
+<button class="button" value="3" onclick="numBtnClicked(this.value)">3</button>
+<button class="button" id="equalBTN" value="=" onclick="equalClicked(this.value)">=</button>
+<button class="button" id="zeroBTN" value="0" onclick="numBtnClicked(this.value)">0</button>
+<button class="button" value="." onclick="dotClicked(this.value)">.</button>
+
+</div>
+
+
+  </main>
+  <footer>
+    <p>made by <a target='_blank' href='https://github.com/natalia-a-doskach'>Natalia Doskach</a>.</p>
+  </footer>
+  <script src="code.js"></script>
+</body>
+
+</html>
